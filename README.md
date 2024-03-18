@@ -1,23 +1,6 @@
-# django-weather-app--2024
-django-weather-app
-Project is created with
-
-Django 4.2
-Bootstrap 4
-OpenWeatherMap
-This is a application to check weather every city around the world.For Backend using Django Framework and Front End using Bootstrap and also i use openweather for consume the API i put requirements.txt for the requirement that i have for this application.Live App
-
-How to use or install this app on your computer?
-
-1. Install the requirement.txt on your computer using pip
-pip install -r requirements.txt
-2. After install all the requirement.txt extract the project and open the project, type this on your terminal
-python manage.py makemigrations
-python manage.py migrate
-3. Run the server using
-python manage.py runserver
-Your django it's live now open your browser and type 127.0.0.1:8000
-
-Because i use mysql for the database you can change the database name,host,port,password and username in the settings.py
-
-That's it for the guideline. I hope you enjoy....
+Tee GitHubiin uusi repo (Python-template)
+Cloonaa se omalle koneelle
+Avaa VsCodessa
+Luo virtuaaliympäristö (python -m venv venv)
+Asenna Django virtuaaliympäristöön (pip install django)
+Aja django startproject oman_projektin_nimi
